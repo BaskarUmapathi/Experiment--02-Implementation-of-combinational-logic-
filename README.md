@@ -45,6 +45,7 @@ Write the Combinational Logic Code:
 
 *Give the Input Combinations according to the Truth Table and then simulate the Output Waveform.
 ## Program:
+```
 module ex2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -57,10 +58,13 @@ assign x5=(B)&(~C)&(D);
 
 assign F1=x1|x2|x3|x4|x5;
 endmodule
+```
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by: BASKAR U
+
+RegisterNumber: 212223220013
 */
 ## RTL realization
 ![image](https://github.com/BaskarUmapathi/Experiment--02-Implementation-of-combinational-logic-/assets/151434098/dbcfeb3a-2643-41aa-9695-00e91f737473)
